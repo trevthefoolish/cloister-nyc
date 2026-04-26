@@ -4,7 +4,7 @@
 
 A portfolio mock-up by **Margaux Boudreaux**, BFA Interior Design '26, University of Louisiana at Lafayette. A 60-bed transient hostel in Lower Manhattan that fuses three typologies — the lobby of an Ace Hotel, the discipline of a Catholic church, and the economy of a hostel — into one building, designed to outlast its parishioners and priced for the young traveler.
 
-**Live site:** https://trevmanthony.github.io/cloister-nyc/
+**Live site:** https://trevthefoolish.github.io/cloister-nyc/
 
 ![Hero](screenshot.png)
 
@@ -28,7 +28,7 @@ The brief is fictional. The construction logic, code citations, and materials sp
 ## Run locally
 
 ```bash
-git clone https://github.com/trevmanthony/cloister-nyc.git
+git clone https://github.com/trevthefoolish/cloister-nyc.git
 cd cloister-nyc
 python3 -m http.server 8000
 open http://127.0.0.1:8000/
