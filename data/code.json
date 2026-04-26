@@ -1,0 +1,105 @@
+{
+  "intro": "Aspiring to a thousand-year building runs against modern New York's incentive structure: every regulation here is calibrated for buildings that someone, somewhere, expects to depreciate. We have read the codes anyway. What follows is the brief we would hand to the Department of Buildings and to the FDNY before pulling permits — a frank account of where we comply, where we exceed, and where we would have to ask for grace.",
+  "items": [
+    {
+      "cite": "NYC BC Ch. 3 § 310",
+      "title": "Occupancy classification — Group R-1 (transient)",
+      "note": "The building is classified Group R-1: transient lodging in which occupants are primarily transient (stays under thirty consecutive days). The Cloister rents nightly. R-1 is the right cell on the matrix; SRO classification (R-2) is not.",
+      "status": "Compliant"
+    },
+    {
+      "cite": "NYC BC Ch. 6 § 602.2 / Table 601",
+      "title": "Construction Type I-A — fully fire-resistive",
+      "note": "Load-bearing limestone with mass-timber floor decks meets Type I-A non-combustible construction once timber assemblies are protected to a 3-hour rating per encapsulated mass-timber detailing. Permits unlimited height for R-1 use under Table 504.3, well in excess of our six stories.",
+      "status": "Compliant — exceeds minimum"
+    },
+    {
+      "cite": "NYC BC Ch. 10 § 1006 & § 1017",
+      "title": "Means of egress — two exits, travel distance, dead ends",
+      "note": "Every sleeping floor offers two enclosed stairs at opposite ends of the plan. Maximum travel distance to an exit is 175 ft (sprinklered R); ours is 88 ft. Dead-end corridors are 14 ft, well under the 50-ft cap. Exit width sized for an occupant load of 60 + staff at 0.2 in/person.",
+      "status": "Compliant"
+    },
+    {
+      "cite": "NYC BC Ch. 9 § 903.2.8 & § 907.2.8",
+      "title": "Sprinklers + smoke alarms throughout",
+      "note": "NFPA 13 wet sprinkler system on every level, including bunks and bath house. Hard-wired interconnected smoke alarms with battery backup in every sleeping room and at every exit corridor, per § 907.2.8 and FDNY rules.",
+      "status": "Compliant"
+    },
+    {
+      "cite": "NYC BC Ch. 11 + ICC A117.1",
+      "title": "Accessibility — sleeping units, bathing facility, route",
+      "note": "Two of sixty sleeping accommodations are configured as Type A accessible cells with roll-in bathing alcove (§ 1107.6.1.1 requires one per twenty-five). The Common House, Refectory, and one Bath House stall are on the accessible route. The Cell rooms above the second floor are not — not unusual for an R-1 of this size, but called out here.",
+      "status": "Compliant — at minimum"
+    },
+    {
+      "cite": "NYC HMC § 27-2078 / NYC BC § 1205",
+      "title": "Light & ventilation in sleeping rooms",
+      "note": "Every sleeping room — Cell, Suite, and Bunk — has an operable window opening to a legal yard or street, with glazing area equal to or exceeding 10% of floor area and ventilation area at 5%. The interior bunks are excepted from that calculation by clerestory borrowed-light to the corridor under § 1205.4.1.",
+      "status": "Compliant — partial; clerestory variance discussed"
+    },
+    {
+      "cite": "NY Multiple Dwelling Law § 4(8) & § 248",
+      "title": "Class B multiple dwelling — transient",
+      "note": "The Cloister is a Class B multiple dwelling under MDL § 4(8) (occupied transiently). It is below the 30-day threshold that would trigger Class A protections and above the residence-of-three threshold; it is not subject to the SRO restrictions of § 248 because it does not contain rented dwelling units.",
+      "status": "Compliant"
+    },
+    {
+      "cite": "NYC ZR § 12-10 + applicable district",
+      "title": "Zoning — transient hotel use",
+      "note": "Use Group 5 (transient hotels) requires a commercial zoning district or a special permit in mixed districts. The site's actual district determines whether a Board of Standards & Appeals variance is required for hostel-style shared-bath occupancy, which falls between the transient-hotel and dormitory definitions in current zoning. We assume a BSA application would be required and have budgeted for it.",
+      "status": "Variance anticipated"
+    },
+    {
+      "cite": "NYC Energy Conservation Code 2020 (NYCECC)",
+      "title": "Envelope, lighting power, mechanical",
+      "note": "12-inch limestone with rigid mineral wool inboard meets Climate Zone 4A wall U-value (0.064). Triple-glazed wood sash windows hit U-0.32. Lighting power density is below 0.55 W/sf throughout. No fossil-fuel space heating; ground-source heat pump for radiant floors. The 1000-year structure is, by accident, a Passive House envelope.",
+      "status": "Compliant — exceeds minimum"
+    },
+    {
+      "cite": "NYC Local Law 97 (Climate Mobilization Act)",
+      "title": "Carbon emissions limit",
+      "note": "Ground-source heat pumps + induction cooking + on-site PV bring projected operational carbon to ~2.0 kg CO₂e/sf/yr — under the 2024 hotel-occupancy cap of 9.87 and below the 2030 cap of 5.26. The embodied-carbon picture is even better: limestone, lime mortar, and timber are net-negative on initial construction.",
+      "status": "Compliant — under 2030 cap"
+    },
+    {
+      "cite": "NYC Local Law 88",
+      "title": "Lighting upgrade & sub-metering by 2025",
+      "note": "Whole-building sub-metering by tenant space (one meter per floor, one per common amenity) and ASHRAE 90.1 lighting controls were folded into base design. Sconces are LED brass fittings with 0–10V dimming.",
+      "status": "Compliant"
+    },
+    {
+      "cite": "NYC FC § 408.2 / FC Ch. 4",
+      "title": "FDNY — fire safety & evacuation plan for R-1",
+      "note": "An FDNY-approved fire safety and evacuation plan is posted on every floor. Staff training is documented. Egress drill cadence is quarterly. Manual pull stations on each floor at every stair vestibule.",
+      "status": "Compliant"
+    },
+    {
+      "cite": "ADA Title III + NYC Human Rights Law",
+      "title": "Public accommodations accessibility",
+      "note": "The Common House, Refectory, accessible Bath House stall, and at least one accessible sleeping unit are reachable without stairs. Signage and wayfinding meet § 703 (tactile, raised character, contrast). Reasonable-modification requests are handled by reception.",
+      "status": "Compliant"
+    },
+    {
+      "cite": "NYC BC § 1029 + NYC HMC",
+      "title": "Habitable room minimum dimensions",
+      "note": "Cell rooms are 95 sq ft net, above the 70 sq ft minimum for habitable rooms (§ 1208.3) and 80 sq ft for first occupant under HMC § 27-2075. Ceiling heights are 9 ft on sleeping floors, 12 ft in the refectory, 15 ft in the lobby vault — all over the 8 ft minimum.",
+      "status": "Compliant"
+    }
+  ],
+  "numbers_intro": "You can pay more so somebody else pays less. The Suite at the top of the stair underwrites the bunk on the third floor; the bunk underwrites the daily breakfast the Refectory serves to anyone in the building. Transient occupancy means the building eventually sleeps everybody. Rates are honest, posted, and the same in every season — no surge, no resort fee, no parking we don't have.",
+  "numbers": {
+    "beds": 60,
+    "rate_low": 55,
+    "rate_high": 245,
+    "breakdown": [
+      { "program": "Cloister Bunk (×6 rooms · 8 beds each)", "beds": 48, "sqft": "280 / room", "rate": "$55 / night" },
+      { "program": "The Cell (×6 rooms · 1 bed each)", "beds": 6, "sqft": "95 / room", "rate": "$135 / night" },
+      { "program": "The Suite (×3 rooms · 2 beds each)", "beds": 6, "sqft": "220 / room", "rate": "$245 / night" },
+      { "program": "Refectory (communal dining)", "beds": 0, "sqft": "950", "rate": "Breakfast included" },
+      { "program": "Common House (lobby + bar)", "beds": 0, "sqft": "1,400", "rate": "Open to all guests" },
+      { "program": "Bath House (communal bathing)", "beds": 0, "sqft": "540", "rate": "Open 6am–11pm" },
+      { "program": "The Quiet Room (chapel)", "beds": 0, "sqft": "180", "rate": "No appointment, no fee" },
+      { "program": "Total", "beds": 60, "sqft": "≈14,200", "rate": "$55–$245" }
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" font-family="'Cardo', Georgia, serif">
+  <defs>
+    <pattern id="stoneAx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1B1A17" stroke-width="0.5"/>
+    </pattern>
+    <linearGradient id="stoneFace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8DDC7"/>
+      <stop offset="1" stop-color="#D4C7AB"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="900" fill="#F2EBDD"/>
+
+  <!-- title block -->
+  <g font-family="'Inter', system-ui, sans-serif" fill="#1B1A17">
+    <text x="60" y="62" font-size="11" letter-spacing="2.2">THE CLOISTER · MARGAUX BOUDREAUX · 2026</text>
+    <text x="60" y="86" font-family="'Cormorant Garamond', Georgia, serif" font-size="34" font-style="italic">Cutaway Axonometric</text>
+    <text x="60" y="108" font-size="10" letter-spacing="1.6" fill="#8C8273">30° / 30° AXONOMETRIC  ·  SOUTH-EAST CORNER CUT  ·  DRAWING A-1.01</text>
+  </g>
+
+  <!--
+    Axonometric basis vectors (30°/30°): the X axis projects 30° down-right,
+    the Y axis projects 30° down-left, the Z axis is vertical.
+    For brevity we use a transform per stacked plan.
+    Origin around (640, 760).
+  -->
+
+  <g transform="translate(640,760)">
+
+    <!-- ground plane / earth -->
+    <polygon points="-440,0 -120,-180 380,-180 60,0" fill="#E8DDC7" opacity="0.5"/>
+    <polygon points="-440,0 -120,-180 -120,0 -440,0" fill="none" stroke="#8C8273" stroke-width="0.4" stroke-dasharray="3,3"/>
+
+    <!-- ============================================================= -->
+    <!-- REFECTORY (below grade) — render as a sunken box on the rear   -->
+    <!-- ============================================================= -->
+    <!-- top of refectory (= street level) -->
+    <polygon points="-360,-30 -100,-180 280,-180 20,-30" fill="#F2EBDD" stroke="#1B1A17" stroke-width="1"/>
+    <text x="-110" y="-90" font-family="'Cardo', Georgia, serif" font-style="italic" font-size="14" fill="#8C8273" transform="skewX(-30)">refectory floor below</text>
+
+    <!-- ============================================================= -->
+    <!-- BUILDING BLOCK — six floors                                    -->
+    <!-- One floor: 60 px tall (Z), footprint 360 wide x 260 deep        -->
+    <!-- ============================================================= -->
+
+    <!-- Floor 1: Common House (the lobby) — 100 px tall (15ft vault) -->
+    <g>
+      <!-- right (south) face -->
+      <polygon points="20,-30 380,-210 380,-330 20,-150" fill="url(#stoneFace)" stroke="#1B1A17" stroke-width="1.2"/>
+      <!-- front (east) face: cutaway — show interior -->
+      <polygon points="20,-30 20,-150 -260,-310 -260,-190" fill="#F2EBDD" stroke="#1B1A17" stroke-width="0.6"/>
+      <!-- top of lobby -->
+      <polygon points="20,-150 380,-330 100,-490 -260,-310" fill="#3B362E" opacity="0.08" stroke="#1B1A17" stroke-width="0.6"/>
+      <!-- arched windows on south face -->
+      <g fill="#F2EBDD" stroke="#1B1A17" stroke-width="0.7">
+        <path d="M 70,-100 L 90,-110 L 90,-150 Q 100,-160 110,-150 L 110,-130 L 90,-120 Z"/>
+        <path d="M 150,-140 L 170,-150 L 170,-190 Q 180,-200 190,-190 L 190,-170 L 170,-160 Z"/>
+        <path d="M 230,-180 L 250,-190 L 250,-230 Q 260,-240 270,-230 L 270,-210 L 250,-200 Z"/>
+      </g>
+      <!-- entrance arch on south face -->
+      <path d="M 270,-90 L 320,-115 Q 330,-130 340,-115 L 340,-180 L 290,-155 Z" fill="#1B1A17" opacity="0.25"/>
+
+      <!-- inside — the long table seen through cutaway -->
+      <polygon points="-200,-260 -40,-180 -40,-170 -200,-250" fill="#3B362E"/>
+      <text x="-150" y="-220" font-family="'Cardo', Georgia, serif" font-style="italic" font-size="11" fill="#1B1A17" transform="skewX(-30)">long table</text>
+
+      <!-- label -->
+      <text x="-180" y="-85" font-family="'Cardo', Georgia, serif" font-style="italic" font-size="14" fill="#1B1A17" transform="skewX(-30)">the common house</text>
+    </g>
+
+    <!-- Floor 2: cells — 60 px tall -->
+    <g>
+      <polygon points="20,-150 380,-330 380,-390 20,-210" fill="url(#stoneFace)" stroke="#1B1A17" stroke-width="1"/>
+      <polygon points="20,-210 20,-150 -260,-310 -260,-370" fill="#F2EBDD" stroke="#1B1A17" stroke-width="0.6"/>
+      <!-- windows on south face — six cell windows -->
+      <g fill="#F2EBDD" stroke="#1B1A17" stroke-width="0.6">
+        <rect x="50" y="-200" width="14" height="40" transform="skewY(-30)"/>
+        <rect x="100" y="-200" width="14" height="40" transform="skewY(-30)"/>
+        <rect x="150" y="-200" width="14" height="40" transform="skewY(-30)"/>
+        <rect x="200" y="-200" width="14" height="40" transform="skewY(-30)"/>
+        <rect x="250" y="-200" width="14" height="40" transform="skewY(-30)"/>
+        <rect x="300" y="-200" width="14" height="40" transform="skewY(-30)"/>
+      </g>
+      <!-- floor slab line (mass timber) -->
+      <line x1="20" y1="-210" x2="-260" y2="-370" stroke="#3B362E" stroke-width="2"/>
+      <!-- cell partitions (interior) -->
+      <g stroke="#8C8273" stroke-width="0.6">
+        <line x1="-220" y1="-330" x2="-100" y2="-270"/>
+        <line x1="-180" y1="-310" x2="-60" y2="-250"/>
+        <line x1="-140" y1="-290" x2="-20" y2="-230"/>
+      </g>
+      <text x="-220" y="-260" font-family="'Cardo', Georgia, serif" font-style="italic" font-size="11" fill="#1B1A17" transform="skewX(-30)">cells II</text>
+    </g>
+
+    <!-- Floor 3: cells — 60 px tall -->
+    <g>
+      <polygon points="20,-210 380,-390 380,-450 20,-270" fill="url(#stoneFace)" stroke="#1B1A17" stroke-width="1"/>
+      <polygon points="20,-270 20,-210 -260,-370 -260,-430" fill="#F2EBDD" stroke="#1B1A17" stroke-width="0.6"/>
+      <line x1="20" y1="-270" x2="-260" y2="-430" stroke="#3B362E" stroke-width="2"/>
+      <g fill="#F2EBDD" stroke="#1B1A17" stroke-width="0.6">
+        <rect x="50" y="-260" width="14" height="40" transform="skewY(-30)"/>
+        <rect x="100" y="-260" width="14" height="40" transform="skewY(-30)"/>
+        <rect x="150" y="-260" width="14" height="40" transform="skewY(-30)"/>
+        <rect x="200" y="-260" width="14" height="40" transform="skewY(-30)"/>
+        <rect x="250" y="-260" width="14" height="40" transform="skewY(-30)"/>
+        <rect x="300" y="-260" width="14" height="40" transform="skewY(-30)"/>
+      </g>
+      <text x="-220" y="-320" font-family="'Cardo', Georgia, serif" font-style="italic" font-size="11" fill="#1B1A17" transform="skewX(-30)">cells III</text>
+    </g>
+
+    <!-- Floor 4: bunk dormitories — 60 px tall -->
+    <g>
+      <polygon points="20,-270 380,-450 380,-510 20,-330" fill="url(#stoneFace)" stroke="#1B1A17" stroke-width="1"/>
+      <polygon points="20,-330 20,-270 -260,-430 -260,-490" fill="#F2EBDD" stroke="#1B1A17" stroke-width="0.6"/>
+      <line x1="20" y1="-330" x2="-260" y2="-490" stroke="#3B362E" stroke-width="2"/>
+      <!-- larger bunk windows (paired) -->
+      <g fill="#F2EBDD" stroke="#1B1A17" stroke-width="0.6">
+        <rect x="60" y="-320" width="60" height="42" transform="skewY(-30)"/>
+        <rect x="180" y="-320" width="60" height="42" transform="skewY(-30)"/>
+        <rect x="300" y="-320" width="60" height="42" transform="skewY(-30)"/>
+      </g>
+      <!-- bunk row icons inside cutaway -->
+      <g fill="#3B362E" opacity="0.7">
+        <rect x="-230" y="-400" width="40" height="14" transform="skewY(-30)"/>
+        <rect x="-180" y="-400" width="40" height="14" transform="skewY(-30)"/>
+        <rect x="-130" y="-400" width="40" height="14" transform="skewY(-30)"/>
+        <rect x="-80" y="-400" width="40" height="14" transform="skewY(-30)"/>
+      </g>
+      <text x="-220" y="-380" font-family="'Cardo', Georgia, serif" font-style="italic" font-size="11" fill="#1B1A17" transform="skewX(-30)">cloister bunk · A</text>
+    </g>
+
+    <!-- Floor 5: bunks + suites — 60 px tall -->
+    <g>
+      <polygon points="20,-330 380,-510 380,-570 20,-390" fill="url(#stoneFace)" stroke="#1B1A17" stroke-width="1"/>
+      <polygon points="20,-390 20,-330 -260,-490 -260,-550" fill="#F2EBDD" stroke="#1B1A17" stroke-width="0.6"/>
+      <line x1="20" y1="-390" x2="-260" y2="-550" stroke="#3B362E" stroke-width="2"/>
+      <g fill="#F2EBDD" stroke="#1B1A17" stroke-width="0.6">
+        <rect x="60" y="-380" width="60" height="42" transform="skewY(-30)"/>
+        <rect x="180" y="-380" width="60" height="42" transform="skewY(-30)"/>
+        <rect x="300" y="-380" width="60" height="42" transform="skewY(-30)"/>
+      </g>
+      <text x="-220" y="-440" font-family="'Cardo', Georgia, serif" font-style="italic" font-size="11" fill="#1B1A17" transform="skewX(-30)">bunk · suite</text>
+    </g>
+
+    <!-- Floor 6: top floor & quiet room (chapel) -->
+    <g>
+      <polygon points="20,-390 380,-570 380,-630 20,-450" fill="url(#stoneFace)" stroke="#1B1A17" stroke-width="1"/>
+      <polygon points="20,-450 20,-390 -260,-550 -260,-610" fill="#F2EBDD" stroke="#1B1A17" stroke-width="0.6"/>
+      <line x1="20" y1="-450" x2="-260" y2="-610" stroke="#3B362E" stroke-width="2"/>
+      <g fill="#F2EBDD" stroke="#1B1A17" stroke-width="0.6">
+        <rect x="80" y="-440" width="40" height="32" transform="skewY(-30)"/>
+        <rect x="200" y="-440" width="40" height="32" transform="skewY(-30)"/>
+        <rect x="320" y="-440" width="40" height="32" transform="skewY(-30)"/>
+      </g>
+      <!-- chapel block on far end with oculus -->
+      <polygon points="-260,-550 -200,-580 -200,-620 -260,-590" fill="#3F4A36" opacity="0.18" stroke="#3F4A36" stroke-width="0.6"/>
+      <text x="-240" y="-590" font-family="'Cardo', Georgia, serif" font-style="italic" font-size="11" fill="#3F4A36" transform="skewX(-30)">quiet room</text>
+    </g>
+
+    <!-- Roof - gable -->
+    <g>
+      <!-- ridge -->
+      <polygon points="20,-450 380,-630 380,-630 200,-720 -80,-560 -260,-610" fill="#E8DDC7" stroke="#1B1A17" stroke-width="1"/>
+      <!-- two roof planes -->
+      <polygon points="20,-450 200,-540 380,-630" fill="#D4C7AB" stroke="#1B1A17" stroke-width="0.8"/>
+      <polygon points="-260,-610 -80,-700 200,-540" fill="#E8DDC7" stroke="#1B1A17" stroke-width="0.8"/>
+      <!-- ridge line -->
+      <line x1="200" y1="-540" x2="-80" y2="-700" stroke="#1B1A17" stroke-width="1"/>
+      <!-- skylight over chapel -->
+      <circle cx="-65" cy="-690" r="10" fill="#F2EBDD" stroke="#1B1A17" stroke-width="1"/>
+      <text x="-70" y="-714" font-family="'Inter', system-ui, sans-serif" font-size="9" letter-spacing="1.4" fill="#3F4A36">OCULUS</text>
+    </g>
+
+    <!-- callouts with leader lines (kept within local x ∈ [-560, 460]; absolute = 80..1100) -->
+    <g stroke="#6B1F1A" stroke-width="0.8" fill="none">
+      <line x1="200" y1="-540" x2="380" y2="-580"/>
+      <line x1="-65" y1="-690" x2="-380" y2="-770"/>
+      <line x1="240" y1="-200" x2="380" y2="-160"/>
+      <line x1="-150" y1="-500" x2="-380" y2="-540"/>
+      <line x1="-110" y1="-200" x2="-380" y2="-260"/>
+    </g>
+    <g font-family="'Inter', system-ui, sans-serif" font-size="10" letter-spacing="1.2" fill="#1B1A17">
+      <text x="390" y="-577">VERMONT SLATE · 8:12</text>
+      <text x="-380" y="-775" text-anchor="end">SKYLIGHT · QUIET ROOM</text>
+      <text x="390" y="-157">12" LIMESTONE</text>
+      <text x="-380" y="-543" text-anchor="end">CLT MASS-TIMBER · EXPOSED</text>
+      <text x="-380" y="-263" text-anchor="end">VAULTED LOBBY · 15' AT CROWN</text>
+    </g>
+  </g>
+
+  <!-- legend -->
+  <g font-family="'Inter', system-ui, sans-serif" font-size="9" fill="#3B362E" letter-spacing="0.6">
+    <rect x="60" y="845" width="14" height="14" fill="url(#stoneFace)" stroke="#1B1A17" stroke-width="0.4"/>
+    <text x="82" y="855">QUARRIED LIMESTONE FACADE</text>
+    <rect x="320" y="845" width="14" height="14" fill="#3B362E"/>
+    <text x="342" y="855">MASS-TIMBER FLOOR DECK</text>
+    <rect x="540" y="845" width="14" height="14" fill="#3F4A36" opacity="0.4"/>
+    <text x="562" y="855">QUIET ROOM (CHAPEL)</text>
+    <line x1="780" y1="852" x2="800" y2="852" stroke="#6B1F1A" stroke-width="0.8"/>
+    <text x="808" y="855">CALLOUT / NOTE</text>
+  </g>
+
+</svg>

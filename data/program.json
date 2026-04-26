@@ -1,0 +1,83 @@
+[
+  {
+    "id": "cloister-bunk",
+    "name": "Cloister Bunk",
+    "type": "Shared dormitory",
+    "capacity": 8,
+    "sqft": 280,
+    "price_per_night": 55,
+    "image": "images/dorm.jpg",
+    "short_desc": "Eight oak bunks built into the masonry, each with a heavy linen curtain and a brass reading sconce.",
+    "long_desc": "The cloister bunk is the building's namesake and its workhorse. Eight beds are framed directly into the limestone wall in two facing rows of four, in the manner of a monastic dormitory. Each bed is its own small room: heavy unbleached linen curtain, a brass sconce on a separate switch, an oak shelf deep enough for a paperback and a glass of water, and a coat hook. The vaulted plaster ceiling absorbs sound. The floor is polished limestone with a single woven flat-weave runner. There is no upper bunk. Everyone sleeps at the same height.",
+    "materials": ["Indiana limestone", "white oak", "lime plaster", "linen", "brass", "wool flat-weave"],
+    "amenities": ["lockable steel locker", "linen curtain (changed weekly)", "individual brass sconce", "shared coat rack", "USB-C outlet at each bunk"]
+  },
+  {
+    "id": "cell",
+    "name": "The Cell",
+    "type": "Private single",
+    "capacity": 1,
+    "sqft": 95,
+    "price_per_night": 135,
+    "image": "images/cell.jpg",
+    "short_desc": "A monastic-scale private room: a bed, a desk, a window, and the silence around them.",
+    "long_desc": "Ninety-five square feet, modeled on the cells of San Marco. The room contains exactly four objects: a single bed with a Belgian linen duvet, a small oak desk with a single drawer, a stool, and a brass coat hook on the wall behind the door. One tall narrow window with a deep stone reveal sits opposite the bed; sit on the bed and the city looks framed, distant, and slow. The plaster walls are limewashed white and warm slightly under afternoon sun. There is no television. There is no closet. Everything you brought is on the desk or under the bed.",
+    "materials": ["lime plaster", "white oak", "Belgian linen", "brass", "terrazzo"],
+    "amenities": ["sash window with stone reveal", "single bed (twin XL)", "writing desk and stool", "private corridor sink alcove", "brass key — no wifi-locked door"]
+  },
+  {
+    "id": "suite",
+    "name": "The Suite",
+    "type": "Private with private bath",
+    "capacity": 2,
+    "beds": 1,
+    "sqft": 220,
+    "price_per_night": 245,
+    "image": "images/suite.jpg",
+    "short_desc": "Two cells joined: a sleeping room, a sitting room, and the only private bath in the building.",
+    "long_desc": "When two cells are taken down to bring one wall, you get the suite. A queen bed in the inner room. A pair of low oak chairs and a small writing table in the outer room. A private bath behind a heavy oak door — terrazzo floor, brass shower spout, a deep cast-iron tub. Two windows: one looks down to the street, one up to the courtyard. The suite is on the top floor and gets afternoon light all winter. We rent six of them. They are the closest the building gets to a hotel room, and the only rooms not shared with anyone you didn't arrive with.",
+    "materials": ["lime plaster", "white oak", "terrazzo", "Indiana limestone", "cast iron", "brass"],
+    "amenities": ["queen bed (sleeps two)", "private bath with cast-iron tub", "two oak chairs and writing table", "two windows", "afternoon light"]
+  },
+  {
+    "id": "refectory",
+    "name": "The Refectory",
+    "type": "Communal dining",
+    "capacity": 32,
+    "sqft": 950,
+    "price_per_night": null,
+    "image": "images/refectory.jpg",
+    "short_desc": "One twenty-four-foot oak table, brass pendants overhead, and breakfast for everyone in the building.",
+    "long_desc": "A single table, twenty-four feet long, milled from a fallen white oak in upstate New York. It seats thirty-two if everyone is friendly. Brass pendants hang over the centerline. The ceiling is vaulted plaster; the floor is terrazzo with the names of the trades who built the place set in brass at the threshold. Breakfast is served daily at no additional charge — coffee, bread baked downstairs, butter, eggs, fruit. Dinner is twice a week, family style, paid by donation. Strangers sit next to strangers. By the third night nobody is.",
+    "materials": ["white oak", "terrazzo", "brass", "lime plaster", "iron"],
+    "amenities": ["thirty-two seats at one table", "open kitchen", "free daily breakfast", "twice-weekly community dinner", "filtered water on tap"]
+  },
+  {
+    "id": "common-house",
+    "name": "Common House",
+    "type": "Living room and bar",
+    "capacity": 60,
+    "capacity_unit": "guests",
+    "sqft": 1400,
+    "price_per_night": null,
+    "image": "images/lobby.jpg",
+    "short_desc": "Parish hall by way of the Ace Hotel: a working bar, a wood stove, a piano, and somewhere to be when you don't know anyone.",
+    "long_desc": "The lobby of a hotel and the parlor of a parish house, fused. An oxblood velvet sofa long enough for three. Two reading chairs. A wood stove that runs from October through April. A piano that works. A library of secondhand paperbacks that travelers leave behind. A small bar in one corner, open from five to midnight, run by whichever staff member cares to that night. The room has tall arched windows on the south wall and is the warmest place in the building in February. There is no front desk. If you need help, ask anyone in an apron.",
+    "materials": ["white oak", "lime plaster", "Indiana limestone", "wool", "brass", "iron"],
+    "amenities": ["working bar (5pm–midnight)", "cast-iron wood stove", "piano (in tune)", "lending library", "south-facing arched windows"]
+  },
+  {
+    "id": "bath-house",
+    "name": "Bath House",
+    "type": "Communal bathing",
+    "capacity": 6,
+    "capacity_unit": "stalls",
+    "sqft": 540,
+    "price_per_night": null,
+    "image": "images/baths.jpg",
+    "short_desc": "Six private shower stalls, a stone trough sink with six brass spigots, and a vaulted ceiling that holds the steam.",
+    "long_desc": "One floor of the building is given to bathing. Six individual shower stalls, each behind a heavy white linen curtain in a brass track, each with its own dressing alcove. A long stone trough sink with six brass spigots runs the length of the room. The walls are lime plaster; the floor is stone with the gentle slope a Roman bath would recognize. The ceiling vaults above. It is the most beautiful room in the building, and the most used. It is open from six in the morning until eleven at night. Towels are linen, changed daily, kept warm on a brass rack near the door.",
+    "materials": ["Indiana limestone", "lime plaster", "brass", "Belgian linen", "marble"],
+    "amenities": ["six private shower stalls", "stone trough sink with six taps", "warm linen towels", "vaulted plaster ceiling", "open 6am–11pm"]
+  }
+]

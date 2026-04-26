@@ -1,0 +1,62 @@
+[
+  {
+    "id": "indiana-limestone",
+    "name": "Indiana Limestone",
+    "origin": "Lawrence County, Indiana",
+    "lifespan_years": 1000,
+    "repairability": "any-mason",
+    "spec": "ASTM C568 Class II Medium Density (Salem limestone). Compressive strength 4,000–8,000 psi. Quarried, sawn, and detailed in twelve-inch ashlar courses; load-bearing on a poured concrete base.",
+    "used_in": ["exterior facade", "ground-floor walls", "dormitory walls", "bath house floor", "stair treads"],
+    "patina": "Develops a soft grey-buff weather skin over the first decade. Stains can be poulticed by any mason; cracks can be repaired by re-cutting and re-bedding a single block."
+  },
+  {
+    "id": "white-oak",
+    "name": "White Oak (rift sawn)",
+    "origin": "FSC-certified, upstate New York",
+    "lifespan_years": 200,
+    "repairability": "any-carpenter",
+    "spec": "Rift-sawn quartersawn white oak (Quercus alba), kiln-dried to 8% MC, finished with hard-wax oil (Osmo Polyx). 1¼-inch flooring, solid 4×4 furniture stock, custom millwork. No engineered substitutes.",
+    "used_in": ["floor in common rooms", "bunks and beds", "refectory table", "all interior doors", "millwork", "stair handrail"],
+    "patina": "Darkens slightly under wax over the first two years; thereafter stable. Dings and scratches sand out in fifteen minutes. Refinishable indefinitely."
+  },
+  {
+    "id": "brass",
+    "name": "Brass (sand-cast)",
+    "origin": "Sand-cast in Pennsylvania foundry; tubing extruded in Connecticut",
+    "lifespan_years": 500,
+    "repairability": "any-metalworker",
+    "spec": "C36000 free-machining brass for fittings; C26000 cartridge brass for sheet and tubing. Unlacquered; allowed to develop patina. Plumbing fittings sized to NSF/ANSI 61.",
+    "used_in": ["all plumbing fittings", "door hardware", "reading sconces", "stair handrail", "spigots in bath house", "key tags"],
+    "patina": "Polishes mirror-bright; darkens in handling to a deep amber. We do not polish. Re-cast or re-drawn from scrap by any foundry; cost recovers most of the metal."
+  },
+  {
+    "id": "lime-plaster",
+    "name": "Lime Plaster (NHL 3.5)",
+    "origin": "St. Astier, Dordogne, France",
+    "lifespan_years": 500,
+    "repairability": "any-mason",
+    "spec": "Three-coat NHL 3.5 hydraulic lime plaster on metal lath. Final coat tinted with raw umber pigment. Vapor-permeable; no acrylic additives. Self-healing micro-cracks via ongoing carbonation.",
+    "used_in": ["interior walls throughout", "vaulted ceilings", "bath house"],
+    "patina": "The wall absorbs and releases moisture; this is the point. A new patch is invisible after a season's exposure. No paint. No primer. No drywall."
+  },
+  {
+    "id": "terrazzo",
+    "name": "Terrazzo (marble chip)",
+    "origin": "Carrara marble chip, Vermont mill base, poured in place",
+    "lifespan_years": 200,
+    "repairability": "specialist",
+    "spec": "Cement-based terrazzo, 75% white Carrara chip / 25% Verde Alpi, 1¾-inch slab on a divided substrate. Honed finish. Brass divider strips at expansion joints.",
+    "used_in": ["refectory floor", "cell floors", "bath house dressing alcoves", "main stair landings"],
+    "patina": "Spalls can be re-poured locally. The floor is the building's heaviest single element and its quietest one. Sealed once a decade."
+  },
+  {
+    "id": "linen",
+    "name": "Belgian Linen",
+    "origin": "Libeco, West Flanders, Belgium",
+    "lifespan_years": 30,
+    "repairability": "any-tailor",
+    "spec": "100% Belgian flax, woven 240 g/m² for curtains, 165 g/m² for bedding. Stone-washed, undyed. Replaced as needed; the building stocks bolts of identical cloth in the basement.",
+    "used_in": ["bunk curtains", "shower stall curtains", "bath towels", "duvet covers", "table linens"],
+    "patina": "Softens with each wash. After thirty years a curtain is not the same curtain. Threadbare panels are cut down to towels, then to rags, then composted. Nothing is thrown out."
+  }
+]
